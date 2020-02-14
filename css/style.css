@@ -142,3 +142,7 @@ audio{
     z-index: 500;
     position: relative;
 }
+
+.navbar{
+    z-index: 500000000000000;
+}
