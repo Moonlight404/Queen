@@ -100,21 +100,10 @@ body,html, main,.jumbotron{
       left: 0px;
       transition: 0s;
   }
-
-  .zoom::after{
-    content: '';
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,.90); 
-}
-
-iframe{
-    position: relative;
-    z-index: 4000;
-}
+    iframe{
+        position: relative;
+        z-index: 4000;
+    }
 
 audio{
     width: 100%;
