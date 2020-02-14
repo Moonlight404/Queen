@@ -32,6 +32,18 @@ function imageZoom(){
     })
 }
 
-navigate();
+function playMusic(){
+    $(".music li").click(function(){
+    $(".music li").removeClass("active");
+    $(this).addClass("active");
+    var audio = document.getElementById('myAudio');
+    audio.src = "https://github.com/Hurricane404/itunes_audio/raw/master/audio/"+$(this).html+".mp4";
+    audio.load();//call this to just preload the audio without playing
+    audio.play();
+    $(".tocando").html($(this).html())
+    })
+}
 
+navigate();
+playMusic();
 imageZoom();

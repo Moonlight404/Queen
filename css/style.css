@@ -115,3 +115,20 @@ iframe{
     position: relative;
     z-index: 4000;
 }
+
+audio{
+    width: 100%;
+    position: relative;
+    z-index: 1000000;
+}
+
+.music li{
+    position: relative;
+    z-index: 1000000;
+    cursor: pointer;
+    color: #555;
+}
+
+.active{
+    color: #fff !important;
+}
