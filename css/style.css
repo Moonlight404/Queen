@@ -137,3 +137,8 @@ audio{
     outline: none;
     border: none;
 }
+
+.btn{
+    z-index: 500;
+    position: relative;
+}
