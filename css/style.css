@@ -66,3 +66,40 @@ body,html, main,.jumbotron{
   a{
       cursor: pointer;
   }
+
+  img{
+      transition: 0.4s;
+      position: relative;
+      z-index: 400;
+      cursor: pointer;
+  }
+
+  .zoom{
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 500px;
+      z-index: 5000;
+      transform: translate(-50%, -50%);
+  }
+  
+  .sair{
+      width: 100%;
+      height: 100%;
+      z-index: 100;
+      background: transparent;
+      top: 0px;
+      left: 0px;
+      position: fixed;
+  }
+
+  .zoom::after{
+    content: '';
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.50);
+    z-index: 4000;
+}

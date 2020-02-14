@@ -16,4 +16,20 @@ function navigate(){
     })
 }
 
+function imageZoom(){
+    $(".sair").click(function(){
+        $("img").removeClass("zoom");
+        $(".sair").css("background", "transparent")
+        $(".sair").css("cursor", "default")
+    })
+    $("img").click(function(){
+        $("img").removeClass("zoom");
+        $(this).addClass("zoom");
+        $(".sair").css("background", "rgba(0,0,0,.70)")
+        $(".sair").css("cursor", "pointer")
+    })
+}
+
 navigate();
+
+imageZoom();
