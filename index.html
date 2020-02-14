@@ -18,6 +18,11 @@ and open the template in the editor.
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
 
         <style>
             .bd-placeholder-img {
@@ -36,7 +41,6 @@ and open the template in the editor.
             }
         </style>
         <!-- Custom styles for this template -->
-        <link href="jumbotron.css" rel="stylesheet">
     </head>
 
     <body>
@@ -53,16 +57,16 @@ and open the template in the editor.
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" data-link="index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="artista.html">Sobre o artista</a>
+                        <a class="nav-link" data-link="artista">Sobre o artista</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="musicas.html">Músicas</a>
+                        <a class="nav-link" data-link="musicas">Músicas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="videos.html">Vídeos</a>
+                        <a class="nav-link" data-link="videos">Vídeos</a>
                     </li>
                 </ul>
             </div>
@@ -116,9 +120,10 @@ and open the template in the editor.
             </div> <!-- /container -->
 
         </main>
-
+        
         <footer class="container">
             <p>&copy; Company 2017-2019</p>
         </footer>
     </body>
+    <script src="./js/index.js"></script>
 </html>

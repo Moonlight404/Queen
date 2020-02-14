@@ -45,3 +45,24 @@ li{
 .bg-dark{
     background-color: rgba(0,0,0,.50)!important;
 }
+
+@-webkit-keyframes run {
+    0% { left: 0;}
+    50%{ left : 100%;}
+    100%{ left: 0;}
+}
+
+body,html, main,.jumbotron{
+    overflow-x: hidden;
+    background: #151515;
+}
+
+  div{
+    -webkit-animation:linear alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 0.4s;
+  }
+
+  a{
+      cursor: pointer;
+  }
