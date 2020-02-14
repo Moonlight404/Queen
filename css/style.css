@@ -47,9 +47,9 @@ li{
 }
 
 @-webkit-keyframes run {
-    0% { left: 0;}
-    50%{ left : 100%;}
-    100%{ left: 0;}
+    0% { transform: scale(0); }
+    50%{ transform: scale(0.5);}
+    100%{ transform: scale(1);}
 }
 
 body,html, main,.jumbotron{
@@ -57,7 +57,7 @@ body,html, main,.jumbotron{
     background: #151515;
 }
 
-  div{
+  main{
     -webkit-animation:linear alternate;
     -webkit-animation-name: run;
     -webkit-animation-duration: 0.4s;
