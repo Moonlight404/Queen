@@ -21,12 +21,14 @@ function imageZoom(){
         $("img").removeClass("zoom");
         $(".sair").css("background", "transparent")
         $(".sair").css("cursor", "default")
+        $(".sair").css("z-index", "400");
     })
-    $("img").click(function(){
+    $(".col-md-4 img").click(function(){
         $("img").removeClass("zoom");
         $(this).addClass("zoom");
         $(".sair").css("background", "rgba(0,0,0,.70)")
         $(".sair").css("cursor", "pointer")
+        $(".sair").css("z-index", "100000");
     })
 }
 
