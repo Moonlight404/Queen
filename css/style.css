@@ -99,6 +99,7 @@ body,html, main,.jumbotron{
       top: 0px;
       left: 0px;
       transition: 0s;
+      position: fixed;
   }
     iframe{
         position: relative;
