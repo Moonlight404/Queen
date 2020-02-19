@@ -87,7 +87,7 @@ body,html, main,.jumbotron{
       left: 50%;
       max-width: 500px;
       height: 550px;
-      z-index: 5000000;
+      z-index: 5000000000;
       transform: translate(-50%, -50%);
   }
   
