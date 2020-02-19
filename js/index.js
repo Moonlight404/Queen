@@ -44,6 +44,7 @@ function imageZoom(){
         $(".sair").css("cursor", "pointer")
         $(".sair").css("z-index", "100000");
 }
+}
 
 function playMusic(){
     $(".music li").click(function(){
