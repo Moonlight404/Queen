@@ -43,7 +43,7 @@ function imageZoom(){
         $(".sair").css("background", "rgba(0,0,0,.70)")
         $(".sair").css("cursor", "pointer")
         $(".sair").css("z-index", "100000");
-}
+    })
 }
 
 function playMusic(){
